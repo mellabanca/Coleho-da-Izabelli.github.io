@@ -135,7 +135,7 @@ function setup()
 function draw() 
 {
   background(51);
-  image(fundoground, 0, 0, displayWidth+80, displayHeight);
+  image(fundoground, width/2, height/2, displayWidth+80, displayHeight);
 
   Engine.update(engine);
    
